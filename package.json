@@ -21,6 +21,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "generate-unique-id": "^2.0.3",
     "luxon": "^3.4.0"
   }
 }

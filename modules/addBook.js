@@ -1,9 +1,8 @@
-import generateUniqueId from '../node_modules/generate-unique-id/generateUniqueId.js';
 import showBooks from './showBooks.js';
 import clearInputs from './clearInputs.js';
 
 const addBook = (myBooks) => {
-  const bookID = generateUniqueId();
+  const bookID = myBooks.length + 1;
   const bookTitle = document.getElementById('title').value.trim();
   const bookAuthor = document.getElementById('author').value.trim();
   const errorSpan = document.getElementById('error-msg');

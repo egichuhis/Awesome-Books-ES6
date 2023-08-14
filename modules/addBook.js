@@ -1,5 +1,6 @@
 import generateUniqueId from '../node_modules/generate-unique-id/generateUniqueId.js';
 import showBooks from './showBooks.js';
+import clearInputs from './clearInputs.js';
 
 const addBook = (myBooks) => {
   const bookID = generateUniqueId();
@@ -17,10 +18,7 @@ const addBook = (myBooks) => {
   localStorage.setItem('myBooks', JSON.stringify(myBooks));
 
   showBooks(myBooks);
-
-  // Clear the input fields values
-  document.getElementById('title').value = '';
-  document.getElementById('author').value = '';
+  clearInputs();
 };
 
 export default addBook;

@@ -1,5 +1,6 @@
 import getTimeNow from './modules/timeNow.js';
 import toggleSectionVisibility from './modules/toggleSection.js';
+import getStoredBooks from './modules/getStoredBooks.js';
 
 const myBooks = [];
 const addBtn = document.getElementById('add-btn');
@@ -8,11 +9,6 @@ const addBooksLink = document.getElementById('add-books-link');
 const listBooksLink = document.getElementById('list-books-link');
 const contactLink = document.getElementById('contact-link');
 const currentTime = document.getElementById('current-time');
-
-const storedBooks = localStorage.getItem('myBooks');
-if (storedBooks) {
-  myBooks.push(...JSON.parse(storedBooks));
-}
 
 const addBook = () => {
   const bookID = myBooks.length + 1;
@@ -88,4 +84,5 @@ contactLink.addEventListener('click', () => {
 });
 
 // Initial display of books
+getStoredBooks(myBooks);
 showBooks();

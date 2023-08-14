@@ -12,7 +12,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Awesome Books ](#-awesome-books-)
+- [📖 Awesome books: with ES6 ](#-awesome-books-with-es6-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -31,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books <a name="about-project"></a>
+# 📖 Awesome books: with ES6 <a name="about-project"></a>
 
-**Awesome Books** is a basic website that allows users to add/remove books from a list. This is achieved by using JavaScript objects and arrays. We also dynamically modify the DOM and add basic events.
+**Awesome Books** is a basic website that allows users to add/remove books from a list. This is achieved by using JavaScript ES6 including modules, arrow functions, destructuring, etc. We also dynamically modify the DOM and add basic event listeners and events delegation.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,7 +43,10 @@
   <summary>HTML</summary>
 </details>
 <details>
-  <summary>Javascript</summary>
+  <summary>Javascript: ES6</summary>
+</details>
+<details>
+  <summary>CSS</summary>
 </details>
 
 <!-- Features -->
@@ -51,6 +54,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Navigation bar**
+- **Real-Time Date and Time Display**
 - **Contact section**
 - **Footer section**
 - **List of Books section**
@@ -94,7 +98,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/egichuhis/Awesome-Books.git
+  git clone https://github.com/egichuhis/Awesome-Books-ES6.git
 ```
 
 ### Install
@@ -138,17 +142,12 @@ Example command:
 - Twitter: [@twitterhandle](https://twitter.com/egichuhis)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/edwin-gichuhi/)
 
-👤 **Mohammad Yaser**
-
-- GitHub: [@githubhandle](https://github.com/MohammadYaser)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add Styling to website to improve UI/UX**
 - [ ] **Design with Bootstrap**
-- [ ] **Refactor JavaScript with ES6**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

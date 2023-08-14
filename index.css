@@ -1,111 +1,111 @@
 nav {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    border: solid 1px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border: solid 1px;
 }
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav h3 {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    gap: 32px;
-    margin-right: 12px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 32px;
+  margin-right: 12px;
 }
 
 #add-books-section {
-    display: none;
+  display: none;
 }
 
 #add-books {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
 }
 
 #add-books input {
-    width: 55%;
-    font-size: 18px;
+  width: 55%;
+  font-size: 18px;
 }
 
 #add-books span {
-    display: flex;
-    width: 55%;
-    justify-content: flex-end;
+  display: flex;
+  width: 55%;
+  justify-content: flex-end;
 }
 
 #add-books button {
-    height: 30px;
-    padding: 0 10px;
-    box-shadow: black 3px 3px;
+  height: 30px;
+  padding: 0 10px;
+  box-shadow: black 3px 3px;
 }
 
 .date-time {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 24px;
-    padding-right: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  padding-right: 12px;
 }
 
 #list-books-section {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 #list-books {
-    display: flex;
-    flex-direction: column;
-    border: solid;
-    padding: 8px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  padding: 8px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .remove-btn {
-    height: 30px;
-    box-shadow: black 4px 3px;
+  height: 30px;
+  box-shadow: black 4px 3px;
 }
 
 #error-msg {
-    color: red;
+  color: red;
 }
 
 #contact-section {
-    display: none;
+  display: none;
 }
 
 #contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact ul {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
 }

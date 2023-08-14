@@ -1,3 +1,5 @@
+import getTimeNow from './modules/timeNow.js';
+
 class BookLibrary {
   constructor() {
     this.myBooks = [];
@@ -76,14 +78,8 @@ class BookLibrary {
 const bookLibrary = new BookLibrary();
 bookLibrary.showBooks();
 
-function dateTime() {
-  const currentDate = new Date();
-  const readDate = currentDate.toUTCString();
-  const currentTime = document.getElementById('current-time');
-  currentTime.textContent = readDate;
-}
-
-dateTime();
+const currentTime = document.getElementById('current-time');
+currentTime.textContent = getTimeNow();
 
 const listBookSection = document.getElementById('list-books-section');
 const addBooksSection = document.getElementById('add-books-section');

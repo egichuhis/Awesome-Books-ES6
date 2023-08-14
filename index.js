@@ -13,7 +13,7 @@ navigation.addEventListener('click', (event) => {
   const { target } = event;
   if (target.tagName === 'A') {
     event.preventDefault();
-    const sectionId = target.getAttribute('href');
+    const sectionId = target.getAttribute('href').substring(1);
     toggleSectionVisibility(sectionId);
   }
 });
